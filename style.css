@@ -1,0 +1,258 @@
+*{
+	margin:0;
+	padding:0;
+}
+*:focus {
+    outline: 0 !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+p{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none!important;
+	color:#000;
+}
+a:hover {
+	color:#00E1FF;
+}
+.h2, h2 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+h1, h5{
+	font-weight: bold;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*Navbar Start */
+.nav-color.scrolled{
+  background:rgb(0, 225, 255, 0.3) ;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+	font-weight:bold;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color:#fff;
+	background:#000;
+	border-bottom:2px solid;
+	
+}
+/* Navbar End*/
+
+/* Portfolio Start*/
+
+.content {
+	background-color: white;
+	position:relative;
+}
+.show-img{
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0
+}
+.show-text{
+	transition: .7s ease;
+	text-align: center;
+	background:rgb(255,231,0, 0.3) ;
+	opacity:0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom:0;
+	right:0;
+}
+.s-text{
+	color: black;
+	font-size: 16px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+
+}
+.content:hover .show-img {
+	opacity: 0.3;
+}
+
+.content:hover .show-text {
+	opacity: 1;
+	cursor:pointer;
+}
+/*Portfolio Start*/
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius:0;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn:hover {
+  background-color: #FFE100;
+}
+
+.btn.active {
+  background-color: #FFE100;
+  color: white;
+}
+.show-more {
+	text-align: center;
+	margin: 15px;
+}
+
+/* Portfolio End */
+
+.send-msg {
+	background: #FFE700;
+	border: 0px;
+	border-radius: 0px;
+}
+/* Partner Start */
+.partner{
+	background:url('img/partner-bg.png');
+	padding:4rem;
+	text-align: center;
+}
+/* Partner End */
+
+/* About Start  */
+.person-full{
+	position:relative;
+	z-index:0;
+}
+.about-person{
+	z-index:1;
+}
+.person-img{
+	z-index:9;
+}
+.person-text {
+	background: #FFE100;
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	padding: 5px 15px 5px 15px;
+}
+.g-text{
+	color:#000;
+}
+.g-design{
+	color:#fff;
+}
+.little-read{
+	margin-top:15px;
+}
+/* About End */
+
+/*Blog Start*/
+.our-blog{
+	background: url('img/partner-bg.png') repeat-y;
+}
+.blog-content{
+	position: relative;
+}
+.b-img{
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0
+}
+.b-text{
+	transition: .7s ease;
+	text-align: center;
+	background:rgb(255,231,0, 0.3) ;
+	opacity:0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom:0;
+	right:0;
+}
+.r-text{
+	color: black;
+	font-size: 16px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.blog-content:hover .b-img {
+	opacity: 0.2;
+}
+
+.blog-content:hover .b-text {
+	opacity: 1;
+}
+/*Blog End*/
+
+/* Address-Social Start */
+#add-social {
+	text-align: center;
+}
+.social-link{
+	
+}
+.social-link ul{
+	list-style:none;
+
+}
+.social-link ul li{
+	display:inline;
+	padding:15px;
+}
+.social-link ul li a{
+	padding:10px;
+}
+.social-link ul li a:hover{
+	padding:10px;
+	background:#FFE100;
+}
+/* Address-Social End */
+
+/* Footer Start */
+.footer-all {
+	background-color: #1E1E1E;
+	color: #fff;
+}
+.copyright{
+
+}
+.b-top-col {
+}
+.b-top{
+	color: #fff;
+}
+.b-top:hover{
+	background:none;
+	color:#fff;
+}
+/* Footer End */
+
+
